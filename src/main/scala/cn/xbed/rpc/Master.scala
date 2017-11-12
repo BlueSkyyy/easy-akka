@@ -21,7 +21,8 @@ class Master extends Actor{
     }
 
     case "hello" => {
-      println("hello akka")
+      println("hello akka" +
+        "")
     }
   }
 }
