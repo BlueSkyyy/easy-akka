@@ -1,7 +1,6 @@
 package cn.xbed.rpc
 
 import akka.actor.{Actor, ActorSelection, ActorSystem, Props}
-import akka.io.Tcp.Register
 import com.typesafe.config.ConfigFactory
 
 /**
